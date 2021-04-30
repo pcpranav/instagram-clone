@@ -20,6 +20,7 @@ const HomeScreen = () => {
     }
     fetchData();
   }, []);
+
   //
   const likePost = async (id) => {
     try {
@@ -81,6 +82,7 @@ const HomeScreen = () => {
       return item._id !== result._id;
     });
     setData(newData);
+    window.location.reload();
   };
   return (
     <div className="home">

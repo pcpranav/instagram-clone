@@ -44,12 +44,14 @@ const LoginScreen = () => {
           placeholder="enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <input
           type="password"
           placeholder="enter your password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
         />
         <button
           className="btn #64b5f6 blue darken"
