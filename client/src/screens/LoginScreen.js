@@ -59,14 +59,15 @@ const LoginScreen = () => {
         >
           Login
         </button>
-
+        <br />
+        <br />
         <Link to="/signup">
-          <h6>Dont have an account? Sign up.</h6>
+          <b>Dont have an account? Sign up.</b>
         </Link>
+        <br />
+        <br />
         <Link to="/resetpassword">
-          <h6>
-            <i>Forgot Password? Click to continue</i>
-          </h6>
+          <b>Forgot Password? Click to continue</b>
         </Link>
       </div>
     </div>

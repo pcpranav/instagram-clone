@@ -135,8 +135,9 @@ const SignupScreen = () => {
             >
               Signup
             </button>
+            <br />
             <Link to="/login">
-              <h6>Already have an account? Sign in.</h6>
+              <b>Already have an account? Sign in.</b>
             </Link>
           </div>
         </div>
